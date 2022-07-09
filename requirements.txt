@@ -1,2 +1,10 @@
 django
 psycopg2
+django-cors-headers
+django-filter
+django-nose
+django-pgviews
+djangorestframework
+drf-flex-fields
+factory-boy
+pytz

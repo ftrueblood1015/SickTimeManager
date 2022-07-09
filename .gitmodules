@@ -1,0 +1,3 @@
+[submodule "DjangoBase"]
+	path = DjangoBase
+	url = https://github.com/ftrueblood1015/DjangoBaseSubModule.git
