@@ -39,6 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+MY_APPS = [
+    'DjangoBase.base_abstracts.apps.BaseAbstractsConfig',
+    'DjangoBase.base_authentication.apps.BaseAuthenticationConfig',
+    'DjangoBase.base_authorization.apps.BaseAuthorizationConfig',
+    'users.apps.UsersConfig',
+    'companies.apps.CompaniesConfig'
+]
+
+INSTALLED_APPS = INSTALLED_APPS + MY_APPS
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
